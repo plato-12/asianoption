@@ -1,0 +1,43 @@
+---
+title: "q,u and d"
+author: "Priyanshu Tiwari"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+---
+---
+title: "Expressions for q, d, and u"
+output: pdf_document
+---
+
+## Mathematical Expressions
+
+The solutions for \( q \), \( d \), and \( u \) are as follows:
+
+### 1. Expression for \( q \)
+\[
+q = -\frac{\sqrt{-4n\sigma^2 t + \log\left(\frac{u}{d}\right)^2}}{2\log\left(\frac{u}{d}\right)} + \frac{1}{2}, \quad
+q = \frac{\sqrt{-4n\sigma^2 t + \log\left(\frac{u}{d}\right)^2}}{2\log\left(\frac{u}{d}\right)} + \frac{1}{2}
+\]
+
+### 2. Expression for \( d \)
+\[
+d = -\frac{1}{\sqrt{u^{\frac{4q}{n - 2q + 1}} \cdot \exp\left(-\frac{4\mu t}{n - 2q + 1}\right)}}, \quad
+d = \frac{1}{\sqrt{u^{\frac{4q}{n - 2q + 1}} \cdot \exp\left(-\frac{4\mu t}{n - 2q + 1}\right)}}
+\]
+
+### 3. Expression for \( u \)
+\[
+u = -\frac{\exp\left(\frac{\mu t - \left(\frac{n}{2} + \frac{1}{2}\right)\log\left(-\frac{1}{\sqrt{u^{\frac{4q}{n - 2q + 1}} \cdot \exp\left(-\frac{4\mu t}{n - 2q + 1}\right)}}\right)}{q}\right)}
+{\sqrt{u^{\frac{4q}{n - 2q + 1}} \cdot \exp\left(-\frac{4\mu t}{n - 2q + 1}\right)}}
+\]
+
+\[
+u = \frac{\exp\left(\frac{\mu t - \left(\frac{n}{2} + \frac{1}{2}\right)\log\left(\frac{1}{\sqrt{u^{\frac{4q}{n - 2q + 1}} \cdot \exp\left(-\frac{4\mu t}{n - 2q + 1}\right)}}\right)}{q}\right)}
+{\sqrt{u^{\frac{4q}{n - 2q + 1}} \cdot \exp\left(-\frac{4\mu t}{n - 2q + 1}\right)}}
+\]
+
+## Conclusion
+
+These expressions describe \( q \), \( d \), and \( u \) in terms of the given parameters \( n \), \( \sigma \), \( \mu \), and \( t \).
